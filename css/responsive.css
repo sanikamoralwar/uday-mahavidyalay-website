@@ -1,0 +1,996 @@
+/* =====================================================
+   UDAY MAHAVIDYALAY
+   RESPONSIVE DESIGN
+===================================================== */
+
+
+
+/* ================= TABLET ================= */
+
+
+@media(max-width:1024px){
+
+
+
+.container{
+
+    width:92%;
+
+}
+
+
+
+
+/* Navbar */
+
+
+.nav-menu{
+
+    gap:18px;
+
+}
+
+
+
+.nav-menu a{
+
+    font-size:14px;
+
+}
+
+
+
+
+/* Hero */
+
+
+.hero-content h1{
+
+    font-size:58px;
+
+}
+
+
+
+.hero-content h2{
+
+    font-size:28px;
+
+}
+
+
+
+
+
+
+/* Cards */
+
+
+.cards-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+
+
+
+
+.stats-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+
+
+
+
+/* Principal */
+
+
+.principal-wrapper{
+
+    grid-template-columns:
+    280px 1fr;
+
+    gap:35px;
+
+}
+
+
+
+.principal-content h2{
+
+    font-size:34px;
+
+}
+
+
+
+
+
+/* Gallery */
+
+
+.gallery-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+
+
+
+
+/* Footer */
+
+
+.footer-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+
+
+
+.cta-content h2{
+
+    font-size:34px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= MOBILE ================= */
+
+
+
+@media(max-width:768px){
+
+
+
+.section{
+
+    padding:60px 0;
+
+}
+
+
+
+.container{
+
+    width:90%;
+
+}
+
+
+
+
+
+/* Navbar */
+
+
+.nav-container{
+
+    position:relative;
+
+}
+
+
+
+.logo img{
+
+    width:65px;
+
+    height:65px;
+
+}
+
+
+
+
+.menu-toggle{
+
+    display:block;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+.nav-menu{
+
+    position:absolute;
+
+    top:90px;
+
+    left:0;
+
+    width:100%;
+
+    background:#800000;
+
+    flex-direction:column;
+
+    padding:30px 0;
+
+    display:none;
+
+}
+
+
+
+
+
+.nav-menu.active{
+
+    display:flex;
+
+}
+
+
+
+
+.nav-menu a{
+
+    font-size:16px;
+
+}
+
+
+
+
+
+/* Hero */
+
+
+.hero{
+
+    min-height:750px;
+
+}
+
+
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:42px;
+
+}
+
+
+
+.hero-content h2{
+
+    font-size:22px;
+
+}
+
+
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+
+
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+.btn-primary{
+
+    width:220px;
+
+}
+
+
+
+
+
+/* Section Heading */
+
+
+.section-title h2{
+
+    font-size:32px;
+
+}
+
+
+
+
+
+
+/* Cards */
+
+
+.cards-grid{
+
+    grid-template-columns:
+    1fr;
+
+}
+
+
+
+
+
+/* Statistics */
+
+
+.stats-grid{
+
+    grid-template-columns:
+    1fr;
+
+}
+
+
+
+
+.stat-card h2{
+
+    font-size:38px;
+
+}
+
+
+
+
+
+/* Courses */
+
+
+.course-card img{
+
+    height:220px;
+
+}
+
+
+
+
+
+/* Principal */
+
+
+.principal-wrapper{
+
+    grid-template-columns:
+    1fr;
+
+    text-align:center;
+
+}
+
+
+
+.principal-image img{
+
+    height:350px;
+
+}
+
+
+
+
+
+/* Faculty */
+
+
+.faculty-card img{
+
+    height:280px;
+
+}
+
+
+
+
+
+/* Gallery */
+
+
+.gallery-grid{
+
+    grid-template-columns:
+    1fr;
+
+}
+
+
+
+.gallery-item{
+
+    height:300px;
+
+}
+
+
+
+
+
+
+
+/* Admission Steps */
+
+
+.admission-steps{
+
+    grid-template-columns:
+    1fr;
+
+}
+
+
+
+
+
+
+
+/* CTA */
+
+
+.cta-content{
+
+    flex-direction:column;
+
+    gap:30px;
+
+    text-align:center;
+
+}
+
+
+
+.cta-content h2{
+
+    font-size:30px;
+
+}
+
+
+
+
+
+
+
+/* Modal */
+
+
+.modal-content{
+
+    width:95%;
+
+    padding:25px;
+
+}
+
+
+
+.modal-content img{
+
+    max-height:300px;
+
+}
+
+
+
+
+
+
+/* Footer */
+
+
+.footer-grid{
+
+    grid-template-columns:
+    1fr;
+
+    text-align:center;
+
+}
+
+
+
+.social-links{
+
+    justify-content:center;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= SMALL MOBILE ================= */
+
+
+
+@media(max-width:480px){
+
+
+
+.hero-content h1{
+
+    font-size:34px;
+
+}
+
+
+
+.hero-content h2{
+
+    font-size:20px;
+
+}
+
+
+
+.section-title h2{
+
+    font-size:27px;
+
+}
+
+
+
+.premium-card{
+
+    padding:25px;
+
+}
+
+
+
+.course-content{
+
+    padding:20px;
+
+}
+
+
+
+.cta-content h2{
+
+    font-size:26px;
+
+}
+
+
+
+.contact-card{
+
+    padding:30px 20px;
+
+}
+
+
+
+}
+
+/* Leadership Responsive */
+
+@media(max-width:1100px){
+
+    .leadership-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .leadership-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+
+/* Courses Responsive */
+
+
+@media(max-width:1100px){
+
+    .courses-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+    .courses-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+
+/* ================= COURSE MODAL MOBILE RESPONSIVE ================= */
+
+
+@media (max-width:768px){
+
+
+    .course-modal-content{
+
+        width:90%;
+
+        max-height:85vh;
+
+        overflow-y:auto;
+
+        padding:25px;
+
+        border-radius:16px;
+
+    }
+
+
+
+    .course-modal-content h2{
+
+        font-size:24px;
+
+        text-align:center;
+
+        padding-right:20px;
+
+    }
+
+
+
+    .close-course-modal{
+
+        top:15px;
+
+        right:15px;
+
+        font-size:22px;
+
+    }
+
+
+
+    .course-details h4{
+
+        font-size:17px;
+
+        margin-top:18px;
+
+    }
+
+
+
+    .course-details p{
+
+        font-size:15px;
+
+        line-height:1.6;
+
+    }
+
+
+
+    .course-details ul{
+
+        padding-left:18px;
+
+    }
+
+
+
+    .course-details li{
+
+        font-size:15px;
+
+        margin-bottom:8px;
+
+    }
+
+
+}
+/* ================= MOBILE NAVBAR ================= */
+
+
+@media(max-width:768px){
+
+
+.nav-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+
+
+.logo img{
+
+    width:90px;
+
+}
+
+
+
+
+
+.menu-toggle{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:5px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+.menu-toggle span{
+
+    width:28px;
+
+    height:3px;
+
+    background:#800000;
+
+    border-radius:5px;
+
+}
+
+
+
+
+
+.nav-menu{
+
+    position:absolute;
+
+    top:100%;
+
+    left:0;
+
+    width:100%;
+
+    background:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:25px;
+
+    padding:30px 0;
+
+
+    transform:translateY(-150%);
+
+    transition:0.4s ease;
+
+
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+.nav-menu.active{
+
+    transform:translateY(0);
+
+}
+
+
+
+
+
+.nav-menu a{
+
+    color:#800000;
+
+    font-size:18px;
+
+}
+
+
+
+
+
+}
+
+
+
+/* ================= FOOTER MOBILE RESPONSIVE ================= */
+
+
+@media (max-width:768px){
+
+
+    .footer{
+
+        padding-top:50px;
+
+    }
+
+
+
+    .footer-grid{
+
+        display:flex !important;
+
+        flex-direction:column !important;
+
+        align-items:center;
+
+        text-align:center;
+
+        gap:35px;
+
+    }
+
+
+
+    .footer-about,
+    .footer-links,
+    .footer-location{
+
+        width:100%;
+
+    }
+
+
+
+    footer h3{
+
+        font-size:22px;
+
+    }
+
+
+
+    .footer-about p{
+
+        max-width:320px;
+
+        margin:0 auto 12px;
+
+        line-height:1.7;
+
+    }
+
+
+
+    .footer-links ul{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+
+    .footer-location img{
+
+        width:260px;
+
+        height:150px;
+
+    }
+
+
+
+    .footer-bottom{
+
+        margin-top:35px;
+
+        padding:20px 15px;
+
+    }
+
+
+
+    .footer-bottom p{
+
+        font-size:14px;
+
+        line-height:1.6;
+
+    }
+
+
+}
+
+@media(max-width:768px){
+
+
+.news-images{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.news-images img{
+
+    height:200px;
+
+}
+
+
+}
