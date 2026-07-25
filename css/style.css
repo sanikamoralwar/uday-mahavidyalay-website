@@ -360,16 +360,13 @@ button {
 /* ================= HERO ================= */
 
 
-
 .hero {
 
     height:100vh;
 
     min-height:700px;
 
-    background-size:cover;
-
-    background-position:center;
+    background:#FAF8F2;
 
     position:relative;
 
@@ -381,24 +378,6 @@ button {
 
 
 
-.hero-overlay {
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-
-    linear-gradient(
-
-    rgba(0,0,0,.55),
-
-    rgba(0,0,0,.65)
-
-    );
-
-}
-
 
 
 .hero-content {
@@ -407,7 +386,7 @@ button {
 
     z-index:2;
 
-    color:white;
+    color:#800000;
 
     max-width:800px;
 
@@ -417,7 +396,7 @@ button {
 
 .hero-small {
 
-    color:#f3c7c7;
+    color:#800000;
 
     letter-spacing:3px;
 
@@ -435,6 +414,8 @@ button {
 
     margin:15px 0;
 
+    color:#800000;
+
 }
 
 
@@ -444,6 +425,8 @@ button {
     font-size:32px;
 
     font-weight:500;
+
+    color:#333;
 
 }
 
@@ -457,7 +440,7 @@ button {
 
     max-width:650px;
 
-    color:#eeeeee;
+    color:#555;
 
 }
 
@@ -470,13 +453,6 @@ button {
     gap:20px;
 
 }
-
-
-
-
-
-
-
 
 
 /* ================= BUTTONS ================= */
